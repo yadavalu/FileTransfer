@@ -12,6 +12,9 @@
 int main(int argc, char** argv)
 {
   atexit(endbeeper);
-  char* server_ip = "" /*TODO*/;
+  char *ip = "127.0.0.1";
+  int port = 8888;
+  struct sockaddr_in server_addr;
+
   return 0;
 }
